@@ -1,22 +1,28 @@
 :root{
   --background:hsl(0, 0%, 95%);
+  --big-font:'Big Shoulders Display', cursive;
   --moss:hsl(179, 100%, 13%);
   --teal:hsl(184, 100%, 22%);
   --para-color:hsl(0, 0%, 100%, 0.75);
   --orange:hsl(31, 77%, 52%);
+  --small-font:'Lexend Deca', sans-serif;
 }
 
 
 body{
   background-color: var(--background);
   color:var(--para-color);
+font-family:var(--small-font);
   padding: 1rem;
 }
-/* main{
 
-} */
 h2{
   color:var(--background);
+  font-family:var(--big-font);
+}
+
+button{
+    font-family:var(--small-font);
 }
 .sedans{
 background-color: var(--orange);

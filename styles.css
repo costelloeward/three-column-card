@@ -17,15 +17,24 @@ font-family:var(--small-font);
 }
 
 
-section{
-  padding: 2rem;
-
-}
-
 h2{
   color:var(--background);
   font-family:var(--big-font);
 }
+
+/* Section styling */
+section{
+  padding: 2rem;}
+.sedans{
+background-color: var(--orange);
+}
+.suvs{
+background-color: var(--teal);
+}
+.luxury{
+background-color: var(--moss);
+}
+
 /* button styling */
 button{
   border: none;
@@ -43,19 +52,11 @@ button{
   color: var(--moss);
 }
 
-.sedans{
-background-color: var(--orange);
-}
-.suvs{
-background-color: var(--teal);
-}
-.luxury{
-background-color: var(--moss);
-}
+
 
 footer{
   color:var(--moss);
-  margin: 5rem;
+  margin-top: 5rem;
 }
 
 /* Styling for larger sizes */

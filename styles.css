@@ -1,73 +1,85 @@
-:root{
-  --background:hsl(0, 0%, 95%);
-  --big-font:'Big Shoulders Display', cursive;
-  --moss:hsl(179, 100%, 13%);
-  --teal:hsl(184, 100%, 22%);
-  --para-color:hsl(0, 0%, 100%, 0.75);
-  --orange:hsl(31, 77%, 52%);
-  --small-font:'Lexend Deca', sans-serif;
+:root {
+  --background: hsl(0, 0%, 95%);
+  --big-font: 'Big Shoulders Display', cursive;
+  --moss: hsl(179, 100%, 13%);
+  --teal: hsl(184, 100%, 22%);
+  --para-color: hsl(0, 0%, 100%, 0.75);
+  --orange: hsl(31, 77%, 52%);
+  --small-font: 'Lexend Deca', sans-serif;
 }
 
-
-body{
+body {
   background-color: var(--background);
-  color:var(--para-color);
-font-family:var(--small-font);
+  color: var(--para-color);
+  font-family: var(--small-font);
   padding: 1rem;
 }
 
-main{
+main {
   max-width: 20rem;
   margin: auto;
 }
 
-h2{
-  color:var(--background);
-  font-family:var(--big-font);
+h2 {
+  color: var(--background);
+  font-family: var(--big-font);
 }
 
 /* Section styling */
-section{
-  padding: 2rem;}
-.sedans{
-background-color: var(--orange);
+section {
+  padding: 2rem;
 }
-.suvs{
-background-color: var(--teal);
+
+.sedans {
+  background-color: var(--orange);
+  border-radius: 0.5rem 0.5rem 0 0;
 }
-.luxury{
-background-color: var(--moss);
+
+.suvs {
+  background-color: var(--teal);
+}
+
+.luxury {
+  background-color: var(--moss);
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 /* button styling */
-button{
+button {
   border: none;
   border-radius: 5rem;
-    font-family:var(--small-font);
-    padding: 1rem 2rem;
+  font-family: var(--small-font);
+  padding: 1rem 2rem;
 }
-.sedans button{
+
+.sedans button {
   color: var(--orange);
 }
-.suvs button{
+
+.suvs button {
   color: var(--teal);
 }
-.luxury button{
+
+.luxury button {
   color: var(--moss);
 }
 
-
-footer{
-  color:var(--moss);
+footer {
+  color: var(--moss);
   margin-top: 8rem;
   text-align: center;
 }
 
 /* Styling for larger sizes */
-@media(min-width:64rem){
-
-  main{
-  display: flex;
-  max-width: 45rem;
+@media(min-width:64rem) {
+  main {
+    display: flex;
+    max-width: 45rem;
   }
+    .sedans{
+      border-radius: 0.5rem 0 0 0.5rem;
+    }
+    .luxury{
+border-radius: 0 0.5rem 0.5rem 0;
+    }
 }

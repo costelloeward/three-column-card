@@ -26,10 +26,23 @@ h2{
   color:var(--background);
   font-family:var(--big-font);
 }
-
+/* button styling */
 button{
+  border: none;
+  border-radius: 5rem;
     font-family:var(--small-font);
+    padding: 1rem 2rem;
 }
+.sedans button{
+  color: var(--orange);
+}
+.suvs button{
+  color: var(--teal);
+}
+.luxury button{
+  color: var(--moss);
+}
+
 .sedans{
 background-color: var(--orange);
 }

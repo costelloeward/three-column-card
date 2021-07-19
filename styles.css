@@ -27,7 +27,8 @@ h2 {
 
 /* Section styling */
 section {
-  padding: 2rem;
+  padding: 2rem 2rem 5rem;
+  position: relative;
 }
 
 .sedans {
@@ -48,8 +49,11 @@ section {
 button {
   border: none;
   border-radius: 5rem;
+  bottom: 2rem;
   font-family: var(--small-font);
   padding: 1rem 2rem;
+  position: absolute;
+
 }
 
 .sedans button {

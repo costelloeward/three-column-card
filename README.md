@@ -78,8 +78,8 @@ I pretended that the buttons opened forms. If they were links I would style them
 ## Author
 
 - Website - [Costelloeward Design](https://www.costelloeward.design)
-- Frontend Mentor - [@louisecw](https://www.frontendmentor.io/profile/louisecw)
-- Twitter - [@louise_c_w](https://www.twitter.com/louise_c_w)
+- Frontend Mentor - [@costelloeward](https://www.frontendmentor.io/profile/costelloeward)
+- Twitter - [@louisecw](https://www.twitter.com/louisecw)
 
 
 

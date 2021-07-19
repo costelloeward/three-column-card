@@ -83,12 +83,30 @@ footer {
     display: flex;
     max-width: 45rem;
   }
-
     .sedans{
       border-radius: 0.5rem 0 0 0.5rem;
     }
     .luxury{
 border-radius: 0 0.5rem 0.5rem 0;
     }
+button{
+  cursor: pointer;
+}
+/* hover states */
+button:hover{
+  border: 0.1rem solid var(--background);
+  color:var(--background);
+}
+.sedans button:hover {
+  background: var(--orange);
+}
+
+.suvs button:hover {
+  background: var(--teal);
+}
+
+.luxury button:hover {
+  background: var(--moss);
+}
 
 }

@@ -1,6 +1,7 @@
 :root {
   --background: hsl(0, 0%, 95%);
   --big-font: 'Big Shoulders Display', cursive;
+  --focus:hsla(70, 85%, 60%);
   --moss: hsl(179, 100%, 13%);
   --teal: hsl(184, 100%, 22%);
   --para-color: hsl(0, 0%, 100%, 0.75);
@@ -55,6 +56,10 @@ button {
   position: absolute;
 
 }
+button:focus{
+  background: var(--focus);
+}
+
 
 .sedans button {
   color: var(--orange);
